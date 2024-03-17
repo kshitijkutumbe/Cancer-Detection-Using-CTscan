@@ -45,10 +45,16 @@ python app.py
 
 ### Mlflow dagshub connection uri
 
+> Connect your repository on github with dagshub
+> Click on the remote button 
+> copy and export the credentials given on experiments tab to your system
+> once everything is executed , on experiments tab itself, you can see "go to mlflow UI",click on it for visualization
+
 ```bash
-MLFLOW_TRACKING_URI=https://dagshub.com/kshitijkutumbe/ml-flow-demo.mlflow \
-MLFLOW_TRACKING_USERNAME=kshitijkutumbe \
-MLFLOW_TRACKING_PASSWORD=5c36301c94d7da5ec5c441347a77cb08f3b531eb \
+MLFLOW_TRACKING_URI= get from dagshub
+MLFLOW_TRACKING_USERNAME= get from dagshub
+MLFLOW_TRACKING_PASSWORD= get from dagshub
+
 python script.py
 ```
 
@@ -56,11 +62,12 @@ python script.py
 ### RUN from bash terminal
 
 ```bash
-export MLFLOW_TRACKING_URI=https://dagshub.com/entbappy/Chest-Disease-Classification-from-Chest-CT-Scan-Image.mlflow
+export MLFLOW_TRACKING_URI=get from dagshub
 
-export MLFLOW_TRACKING_USERNAME=entbappy 
+export MLFLOW_TRACKING_USERNAME=get from dagshub
 
-export MLFLOW_TRACKING_PASSWORD=6824692c47a369aa6f9eac5b10041d5c8edbcef0
+export MLFLOW_TRACKING_PASSWORD=get from dagshub
+
 
 ```
 
