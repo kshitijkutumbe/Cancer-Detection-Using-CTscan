@@ -46,9 +46,9 @@ python app.py
 ### Mlflow dagshub connection uri
 
 ```bash
-MLFLOW_TRACKING_URI=https://dagshub.com/entbappy/Chest-Disease-Classification-from-Chest-CT-Scan-Image.mlflow \
-MLFLOW_TRACKING_USERNAME=entbappy \
-MLFLOW_TRACKING_PASSWORD=6824692c47a369aa6f9eac5b10041d5c8edbcef0 \
+MLFLOW_TRACKING_URI=https://dagshub.com/kshitijkutumbe/ml-flow-demo.mlflow \
+MLFLOW_TRACKING_USERNAME=kshitijkutumbe \
+MLFLOW_TRACKING_PASSWORD=5c36301c94d7da5ec5c441347a77cb08f3b531eb \
 python script.py
 ```
 
